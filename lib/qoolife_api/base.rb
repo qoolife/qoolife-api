@@ -3,7 +3,7 @@ module QoolifeApi
     include Pagination
 
     self.site = 'https://qoolife.com'
-    self.prefix = '/api/v1'
+    self.prefix = '/api/v1/'
 
     self.include_root_in_json = true
     self.collection_parser = BaseCollection

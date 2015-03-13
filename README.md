@@ -1,6 +1,6 @@
-# QoolifeApi is the official Ruby wrapper for Qoolife API
+# QoolifeApi - Ruby client for Qoolife API
 
-Ruby API client for Qoolife, so you can easily plug it into your App.
+Ruby API client for [Qoolife](https://qoolife.com), so you can easily plug it into your App.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Refer to the (official docs)[http://developer.qoolife.com] to see what Qoolife API can do.
+Refer to the [official docs](http://developer.qoolife.com) to see what Qoolife API can do.
 
 ## Contributing
 

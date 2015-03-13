@@ -6,5 +6,9 @@ describe QoolifeApi do
     it "should answer world when said hello" do
       expect(QoolifeApi::Hello.say_hello).to eq({ 'hello' => 'world' })
     end
+
+    it "should answer world when said hello" do
+      expect(QoolifeApi::Hello.say_hello).to eq({ 'hello' => 'david' })
+    end
   end
 end
