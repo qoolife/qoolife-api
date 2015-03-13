@@ -1,4 +1,5 @@
 module QoolifeApi
-  class Questionnaire
+  class Questionnaire < Base
+    has_many :variables, class_name: 'qoolife_api/variable'
   end
 end

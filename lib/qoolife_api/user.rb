@@ -1,4 +1,4 @@
 module QoolifeApi
-  class Measurement < Base
+  class User < Base
   end
 end

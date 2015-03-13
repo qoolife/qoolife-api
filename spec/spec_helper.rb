@@ -1,0 +1,1 @@
+require 'qoolife_api'
