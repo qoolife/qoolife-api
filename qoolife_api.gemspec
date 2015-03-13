@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = QoolifeApi::VERSION
   spec.authors       = ["David Gil"]
   spec.email         = ["dgilperez@qoolife.com"]
-  spec.summary       = %q{Qoolife API Ruby client}
-  spec.description   = %q{Ruby wrapper for the Qoolife API, so you can easily plug it into your App}
+  spec.summary       = %q{Ruby wrapper for Qoolife API}
+  spec.description   = %q{Ruby API client for Qoolife, so you can easily plug it into your App}
   spec.homepage      = "https://github.com/qoolife/qoolife-api"
   spec.license       = "MIT"
 
