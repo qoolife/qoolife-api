@@ -2,6 +2,7 @@ module QoolifeApi
   module Pagination
     def self.included(base)
       base.extend(ClassMethods)
+      base.add_response_method :http_response
     end
 
     module ClassMethods

@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-Refer to the [official docs](http://developer.qoolife.com) to see what Qoolife API can do.
+Most of QoolifeApi methods need authentication with a Qoolife account. You need to provide this data to the client like this:
+
+    QoolifeApi.authenticate 'myuser@example.com', 'veeerysekret'
+
+After that, you can retrieve resources from the API using `ActiveResource` syntax.
+
+Some examples:
+
+    QoolifeApi::JournalEntries.all # will retrieve a paginated collection of the authenticated users' journal entries
+    QoolifeApi::JournalEntries.last.measurements # measurements from the last journal entry
+    QoolifeApi::Conversation.all # conversations of any kind where the user is watcher.
+    QoolifeApi::Conversation.last.posts.last # last message post in the last conversation where the user is watcher.
+
+Check the [API docs](http://developer.qoolife.com) for a full reference of what Qoolife API can do.
 
 ## Contributing
 
