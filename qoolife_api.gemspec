@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'qoolife_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "qoolife_api"
+  spec.name          = "qoolife-api"
   spec.version       = QoolifeApi::VERSION
   spec.authors       = ["David Gil"]
   spec.email         = ["dgilperez@qoolife.com"]
