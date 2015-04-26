@@ -6,7 +6,7 @@ Ruby API client for [Qoolife](https://qoolife.com), so you can easily plug it in
 
 Add this line to your application's Gemfile:
 
-    gem 'qoolife_api'
+    gem 'qoolife-api'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install qoolife_api
+    $ gem install qoolife-api
 
 ## Usage
 
@@ -22,7 +22,7 @@ Refer to the [official docs](http://developer.qoolife.com) to see what Qoolife A
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/qoolife_api/fork )
+1. Fork it ( https://github.com/[my-github-username]/qoolife-api/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

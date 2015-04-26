@@ -1,1 +1,1 @@
-require 'qoolife_api'
+require 'qoolife-api'
